@@ -39,14 +39,21 @@ namespace Forms
             newForm.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
         {
             heart newForm = new heart();
             newForm.Enabled = true;
             newForm.Show();
+
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button6_Click_1(object sender, EventArgs e)
         {
             car newForm = new car();
             newForm.Enabled = true;

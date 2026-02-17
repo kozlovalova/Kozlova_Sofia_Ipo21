@@ -34,18 +34,19 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(49, 26);
-            this.button1.Size = new System.Drawing.Size(98, 35);
+            this.button1.Location = new System.Drawing.Point(55, 32);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Size = new System.Drawing.Size(110, 44);
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(178, 26);
+            this.button2.BackColor = System.Drawing.Color.Maroon;
+            this.button2.Location = new System.Drawing.Point(200, 32);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 35);
+            this.button2.Size = new System.Drawing.Size(137, 44);
             this.button2.TabIndex = 1;
             this.button2.Text = "Hello!!!";
             this.button2.UseVisualStyleBackColor = false;
@@ -53,10 +54,11 @@
             // 
             // nForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(711, 360);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "nForm";
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);

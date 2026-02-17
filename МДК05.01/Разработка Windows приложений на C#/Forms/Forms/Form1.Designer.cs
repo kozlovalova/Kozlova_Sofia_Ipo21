@@ -32,14 +32,16 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(243, 148);
+            this.button4.Location = new System.Drawing.Point(289, 162);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(195, 56);
+            this.button4.Size = new System.Drawing.Size(195, 70);
             this.button4.TabIndex = 8;
             this.button4.Text = "открыть треугольную форму";
             this.button4.UseVisualStyleBackColor = true;
@@ -47,10 +49,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 38);
+            this.button1.Location = new System.Drawing.Point(59, 230);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 54);
+            this.button1.Size = new System.Drawing.Size(143, 68);
             this.button1.TabIndex = 5;
             this.button1.Text = "Border Style";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,10 +60,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(500, 38);
+            this.button3.Location = new System.Drawing.Point(586, 230);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 54);
+            this.button3.Size = new System.Drawing.Size(134, 68);
             this.button3.TabIndex = 7;
             this.button3.Text = "Opacity";
             this.button3.UseVisualStyleBackColor = true;
@@ -69,21 +71,45 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(268, 38);
+            this.button2.Location = new System.Drawing.Point(311, 80);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 54);
+            this.button2.Size = new System.Drawing.Size(156, 68);
             this.button2.TabIndex = 6;
             this.button2.Text = "Resize";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(34, 318);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(195, 70);
+            this.button5.TabIndex = 9;
+            this.button5.Text = "открыть треугольную форму";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(552, 318);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(195, 70);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "открыть треугольную форму";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(711, 360);
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -92,6 +118,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
@@ -101,6 +128,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
