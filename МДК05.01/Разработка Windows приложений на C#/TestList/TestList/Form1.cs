@@ -36,10 +36,5 @@ namespace TestList
         {
             memberList.Sorted = true;
         }
-
-        private void peopleList_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
