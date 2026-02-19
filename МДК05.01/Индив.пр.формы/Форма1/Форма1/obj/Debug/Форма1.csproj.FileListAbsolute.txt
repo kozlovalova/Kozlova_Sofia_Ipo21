@@ -1,0 +1,11 @@
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\bin\Debug\Форма1.exe.config
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\bin\Debug\Форма1.exe
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\bin\Debug\Форма1.pdb
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.Form1.resources
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.Properties.Resources.resources
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.csproj.GenerateResource.cache
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.exe
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.pdb
+C:\Users\USER\OneDrive\Desktop\Kozlova_IPO21\МДК05.01_Козлова\Индив.пр.формы\Форма1\Форма1\obj\Debug\Форма1.exe.config
